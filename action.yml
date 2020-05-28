@@ -1,0 +1,6 @@
+name: "S3 Upload"
+description: "Upload a file to an AWS S3 repository"
+author: jarlex
+runs:
+  using: docker
+  image: Dockerfile

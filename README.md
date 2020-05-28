@@ -1,4 +1,4 @@
-# GitHub Action to Upload File to S3 Bucket 🔄
+# GitHub Action to Upload File to S3 Bucket
 
 ```yaml
 name: Upload Website

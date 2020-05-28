@@ -30,7 +30,7 @@ ${AWS_REGION}
 text
 EOF
 
-sh -c "aws s3 cp ${SOURCE_DIR} s3://${AWS_S3_BUCKET}/${DEST_DIR} \
+sh -c "aws s3 cp ${FILE} s3://${AWS_S3_BUCKET}/${DEST_DIR} \
               --profile s3-upload-action \
               --no-progress \
               $*"
